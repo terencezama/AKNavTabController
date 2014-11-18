@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		006306BE1A19A66500328662 /* UIView+AKUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 006306B81A19A66500328662 /* UIView+AKUtils.m */; };
+		006306BF1A19A66500328662 /* UIViewController+AKUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 006306BA1A19A66500328662 /* UIViewController+AKUtils.m */; };
+		006306C01A19A66500328662 /* AKNavTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 006306BD1A19A66500328662 /* AKNavTabController.m */; };
+		00A043461A12AA2D00F6AA97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A043451A12AA2D00F6AA97 /* main.m */; };
+		00A043491A12AA2D00F6AA97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A043481A12AA2D00F6AA97 /* AppDelegate.m */; };
+		00A0434C1A12AA2D00F6AA97 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A0434B1A12AA2D00F6AA97 /* ViewController.m */; };
+		00A0434F1A12AA2D00F6AA97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A0434D1A12AA2D00F6AA97 /* Main.storyboard */; };
+		00A043511A12AA2D00F6AA97 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00A043501A12AA2D00F6AA97 /* Images.xcassets */; };
+		00A043541A12AA2D00F6AA97 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00A043521A12AA2D00F6AA97 /* LaunchScreen.xib */; };
+		00A043601A12AA2D00F6AA97 /* AKNavTabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A0435F1A12AA2D00F6AA97 /* AKNavTabTests.m */; };
+		00A0436D1A12B00E00F6AA97 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00A0436C1A12B00E00F6AA97 /* Property List.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00A0435A1A12AA2D00F6AA97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00A043381A12AA2C00F6AA97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00A0433F1A12AA2C00F6AA97;
+			remoteInfo = AKNavTab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		006306B71A19A66500328662 /* UIView+AKUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AKUtils.h"; sourceTree = "<group>"; };
+		006306B81A19A66500328662 /* UIView+AKUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AKUtils.m"; sourceTree = "<group>"; };
+		006306B91A19A66500328662 /* UIViewController+AKUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AKUtils.h"; sourceTree = "<group>"; };
+		006306BA1A19A66500328662 /* UIViewController+AKUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AKUtils.m"; sourceTree = "<group>"; };
+		006306BC1A19A66500328662 /* AKNavTabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKNavTabController.h; sourceTree = "<group>"; };
+		006306BD1A19A66500328662 /* AKNavTabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKNavTabController.m; sourceTree = "<group>"; };
+		00A043401A12AA2C00F6AA97 /* AKNavTab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AKNavTab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00A043441A12AA2D00F6AA97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00A043451A12AA2D00F6AA97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00A043471A12AA2D00F6AA97 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		00A043481A12AA2D00F6AA97 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		00A0434A1A12AA2D00F6AA97 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		00A0434B1A12AA2D00F6AA97 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		00A0434E1A12AA2D00F6AA97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00A043501A12AA2D00F6AA97 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		00A043531A12AA2D00F6AA97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		00A043591A12AA2D00F6AA97 /* AKNavTabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AKNavTabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00A0435E1A12AA2D00F6AA97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00A0435F1A12AA2D00F6AA97 /* AKNavTabTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AKNavTabTests.m; sourceTree = "<group>"; };
+		00A0436C1A12B00E00F6AA97 /* Property List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00A0433D1A12AA2C00F6AA97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A043561A12AA2D00F6AA97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		006306B51A19A66500328662 /* AKUtils */ = {
+			isa = PBXGroup;
+			children = (
+				006306B61A19A66500328662 /* AKBase */,
+				006306BB1A19A66500328662 /* AKNavTab */,
+			);
+			name = AKUtils;
+			path = ../../AKUtils;
+			sourceTree = "<group>";
+		};
+		006306B61A19A66500328662 /* AKBase */ = {
+			isa = PBXGroup;
+			children = (
+				006306B71A19A66500328662 /* UIView+AKUtils.h */,
+				006306B81A19A66500328662 /* UIView+AKUtils.m */,
+				006306B91A19A66500328662 /* UIViewController+AKUtils.h */,
+				006306BA1A19A66500328662 /* UIViewController+AKUtils.m */,
+			);
+			path = AKBase;
+			sourceTree = "<group>";
+		};
+		006306BB1A19A66500328662 /* AKNavTab */ = {
+			isa = PBXGroup;
+			children = (
+				006306BC1A19A66500328662 /* AKNavTabController.h */,
+				006306BD1A19A66500328662 /* AKNavTabController.m */,
+			);
+			path = AKNavTab;
+			sourceTree = "<group>";
+		};
+		00A043371A12AA2C00F6AA97 = {
+			isa = PBXGroup;
+			children = (
+				00A043421A12AA2C00F6AA97 /* AKNavTab */,
+				00A0435C1A12AA2D00F6AA97 /* AKNavTabTests */,
+				00A043411A12AA2C00F6AA97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00A043411A12AA2C00F6AA97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00A043401A12AA2C00F6AA97 /* AKNavTab.app */,
+				00A043591A12AA2D00F6AA97 /* AKNavTabTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00A043421A12AA2C00F6AA97 /* AKNavTab */ = {
+			isa = PBXGroup;
+			children = (
+				006306B51A19A66500328662 /* AKUtils */,
+				00A043471A12AA2D00F6AA97 /* AppDelegate.h */,
+				00A043481A12AA2D00F6AA97 /* AppDelegate.m */,
+				00A0434A1A12AA2D00F6AA97 /* ViewController.h */,
+				00A0434B1A12AA2D00F6AA97 /* ViewController.m */,
+				00A0434D1A12AA2D00F6AA97 /* Main.storyboard */,
+				00A043501A12AA2D00F6AA97 /* Images.xcassets */,
+				00A043521A12AA2D00F6AA97 /* LaunchScreen.xib */,
+				00A043431A12AA2D00F6AA97 /* Supporting Files */,
+				00A0436C1A12B00E00F6AA97 /* Property List.plist */,
+			);
+			path = AKNavTab;
+			sourceTree = "<group>";
+		};
+		00A043431A12AA2D00F6AA97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00A043441A12AA2D00F6AA97 /* Info.plist */,
+				00A043451A12AA2D00F6AA97 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00A0435C1A12AA2D00F6AA97 /* AKNavTabTests */ = {
+			isa = PBXGroup;
+			children = (
+				00A0435F1A12AA2D00F6AA97 /* AKNavTabTests.m */,
+				00A0435D1A12AA2D00F6AA97 /* Supporting Files */,
+			);
+			path = AKNavTabTests;
+			sourceTree = "<group>";
+		};
+		00A0435D1A12AA2D00F6AA97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00A0435E1A12AA2D00F6AA97 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00A0433F1A12AA2C00F6AA97 /* AKNavTab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00A043631A12AA2D00F6AA97 /* Build configuration list for PBXNativeTarget "AKNavTab" */;
+			buildPhases = (
+				00A0433C1A12AA2C00F6AA97 /* Sources */,
+				00A0433D1A12AA2C00F6AA97 /* Frameworks */,
+				00A0433E1A12AA2C00F6AA97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AKNavTab;
+			productName = AKNavTab;
+			productReference = 00A043401A12AA2C00F6AA97 /* AKNavTab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00A043581A12AA2D00F6AA97 /* AKNavTabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00A043661A12AA2D00F6AA97 /* Build configuration list for PBXNativeTarget "AKNavTabTests" */;
+			buildPhases = (
+				00A043551A12AA2D00F6AA97 /* Sources */,
+				00A043561A12AA2D00F6AA97 /* Frameworks */,
+				00A043571A12AA2D00F6AA97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00A0435B1A12AA2D00F6AA97 /* PBXTargetDependency */,
+			);
+			name = AKNavTabTests;
+			productName = AKNavTabTests;
+			productReference = 00A043591A12AA2D00F6AA97 /* AKNavTabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00A043381A12AA2C00F6AA97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Terence Adrien Zama";
+				TargetAttributes = {
+					00A0433F1A12AA2C00F6AA97 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					00A043581A12AA2D00F6AA97 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 00A0433F1A12AA2C00F6AA97;
+					};
+				};
+			};
+			buildConfigurationList = 00A0433B1A12AA2C00F6AA97 /* Build configuration list for PBXProject "AKNavTab" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00A043371A12AA2C00F6AA97;
+			productRefGroup = 00A043411A12AA2C00F6AA97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00A0433F1A12AA2C00F6AA97 /* AKNavTab */,
+				00A043581A12AA2D00F6AA97 /* AKNavTabTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00A0433E1A12AA2C00F6AA97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A0434F1A12AA2D00F6AA97 /* Main.storyboard in Resources */,
+				00A043541A12AA2D00F6AA97 /* LaunchScreen.xib in Resources */,
+				00A0436D1A12B00E00F6AA97 /* Property List.plist in Resources */,
+				00A043511A12AA2D00F6AA97 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A043571A12AA2D00F6AA97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00A0433C1A12AA2C00F6AA97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				006306BE1A19A66500328662 /* UIView+AKUtils.m in Sources */,
+				006306C01A19A66500328662 /* AKNavTabController.m in Sources */,
+				006306BF1A19A66500328662 /* UIViewController+AKUtils.m in Sources */,
+				00A0434C1A12AA2D00F6AA97 /* ViewController.m in Sources */,
+				00A043491A12AA2D00F6AA97 /* AppDelegate.m in Sources */,
+				00A043461A12AA2D00F6AA97 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A043551A12AA2D00F6AA97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A043601A12AA2D00F6AA97 /* AKNavTabTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00A0435B1A12AA2D00F6AA97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00A0433F1A12AA2C00F6AA97 /* AKNavTab */;
+			targetProxy = 00A0435A1A12AA2D00F6AA97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		00A0434D1A12AA2D00F6AA97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00A0434E1A12AA2D00F6AA97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		00A043521A12AA2D00F6AA97 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00A043531A12AA2D00F6AA97 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00A043611A12AA2D00F6AA97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00A043621A12AA2D00F6AA97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00A043641A12AA2D00F6AA97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = AKNavTab/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		00A043651A12AA2D00F6AA97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = AKNavTab/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		00A043671A12AA2D00F6AA97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AKNavTabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AKNavTab.app/AKNavTab";
+			};
+			name = Debug;
+		};
+		00A043681A12AA2D00F6AA97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AKNavTabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AKNavTab.app/AKNavTab";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00A0433B1A12AA2C00F6AA97 /* Build configuration list for PBXProject "AKNavTab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A043611A12AA2D00F6AA97 /* Debug */,
+				00A043621A12AA2D00F6AA97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00A043631A12AA2D00F6AA97 /* Build configuration list for PBXNativeTarget "AKNavTab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A043641A12AA2D00F6AA97 /* Debug */,
+				00A043651A12AA2D00F6AA97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00A043661A12AA2D00F6AA97 /* Build configuration list for PBXNativeTarget "AKNavTabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A043671A12AA2D00F6AA97 /* Debug */,
+				00A043681A12AA2D00F6AA97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00A043381A12AA2C00F6AA97 /* Project object */;
+}
