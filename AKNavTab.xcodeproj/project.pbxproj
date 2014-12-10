@@ -15,10 +15,10 @@
 		00A043541A12AA2D00F6AA97 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00A043521A12AA2D00F6AA97 /* LaunchScreen.xib */; };
 		00A043601A12AA2D00F6AA97 /* AKNavTabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A0435F1A12AA2D00F6AA97 /* AKNavTabTests.m */; };
 		00A0436D1A12B00E00F6AA97 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00A0436C1A12B00E00F6AA97 /* Property List.plist */; };
-		00E0BB141A386149003910CE /* UIView+AKUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E0BB0E1A386149003910CE /* UIView+AKUtils.m */; };
-		00E0BB151A386149003910CE /* UIViewController+AKUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E0BB101A386149003910CE /* UIViewController+AKUtils.m */; };
-		00E0BB161A386149003910CE /* AKNavTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E0BB131A386149003910CE /* AKNavTabController.m */; };
 		00E0BB1A1A3861CD003910CE /* MYCustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E0BB191A3861CD003910CE /* MYCustomNavigationController.m */; };
+		00E0BB271A386487003910CE /* UIView+AKUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E0BB211A386487003910CE /* UIView+AKUtils.m */; };
+		00E0BB281A386487003910CE /* UIViewController+AKUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E0BB231A386487003910CE /* UIViewController+AKUtils.m */; };
+		00E0BB291A386487003910CE /* AKNavTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E0BB261A386487003910CE /* AKNavTabController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,14 +46,14 @@
 		00A0435E1A12AA2D00F6AA97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00A0435F1A12AA2D00F6AA97 /* AKNavTabTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AKNavTabTests.m; sourceTree = "<group>"; };
 		00A0436C1A12B00E00F6AA97 /* Property List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
-		00E0BB0D1A386149003910CE /* UIView+AKUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AKUtils.h"; sourceTree = "<group>"; };
-		00E0BB0E1A386149003910CE /* UIView+AKUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AKUtils.m"; sourceTree = "<group>"; };
-		00E0BB0F1A386149003910CE /* UIViewController+AKUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AKUtils.h"; sourceTree = "<group>"; };
-		00E0BB101A386149003910CE /* UIViewController+AKUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AKUtils.m"; sourceTree = "<group>"; };
-		00E0BB121A386149003910CE /* AKNavTabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKNavTabController.h; sourceTree = "<group>"; };
-		00E0BB131A386149003910CE /* AKNavTabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKNavTabController.m; sourceTree = "<group>"; };
 		00E0BB181A3861CD003910CE /* MYCustomNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYCustomNavigationController.h; sourceTree = "<group>"; };
 		00E0BB191A3861CD003910CE /* MYCustomNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYCustomNavigationController.m; sourceTree = "<group>"; };
+		00E0BB201A386487003910CE /* UIView+AKUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AKUtils.h"; sourceTree = "<group>"; };
+		00E0BB211A386487003910CE /* UIView+AKUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AKUtils.m"; sourceTree = "<group>"; };
+		00E0BB221A386487003910CE /* UIViewController+AKUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AKUtils.h"; sourceTree = "<group>"; };
+		00E0BB231A386487003910CE /* UIViewController+AKUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AKUtils.m"; sourceTree = "<group>"; };
+		00E0BB251A386487003910CE /* AKNavTabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKNavTabController.h; sourceTree = "<group>"; };
+		00E0BB261A386487003910CE /* AKNavTabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKNavTabController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,16 +74,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		006306B51A19A66500328662 /* AKUtils */ = {
-			isa = PBXGroup;
-			children = (
-				00E0BB0C1A386149003910CE /* AKBase */,
-				00E0BB111A386149003910CE /* AKNavTab */,
-			);
-			name = AKUtils;
-			path = ../../AKUtils;
-			sourceTree = "<group>";
-		};
 		00A043371A12AA2C00F6AA97 = {
 			isa = PBXGroup;
 			children = (
@@ -105,8 +95,8 @@
 		00A043421A12AA2C00F6AA97 /* AKNavTab */ = {
 			isa = PBXGroup;
 			children = (
+				00E0BB1E1A38647D003910CE /* AKUtils */,
 				00E0BB171A3861AC003910CE /* Classes */,
-				006306B51A19A66500328662 /* AKUtils */,
 				00A043471A12AA2D00F6AA97 /* AppDelegate.h */,
 				00A043481A12AA2D00F6AA97 /* AppDelegate.m */,
 				00A0434A1A12AA2D00F6AA97 /* ViewController.h */,
@@ -146,26 +136,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		00E0BB0C1A386149003910CE /* AKBase */ = {
-			isa = PBXGroup;
-			children = (
-				00E0BB0D1A386149003910CE /* UIView+AKUtils.h */,
-				00E0BB0E1A386149003910CE /* UIView+AKUtils.m */,
-				00E0BB0F1A386149003910CE /* UIViewController+AKUtils.h */,
-				00E0BB101A386149003910CE /* UIViewController+AKUtils.m */,
-			);
-			path = AKBase;
-			sourceTree = "<group>";
-		};
-		00E0BB111A386149003910CE /* AKNavTab */ = {
-			isa = PBXGroup;
-			children = (
-				00E0BB121A386149003910CE /* AKNavTabController.h */,
-				00E0BB131A386149003910CE /* AKNavTabController.m */,
-			);
-			path = AKNavTab;
-			sourceTree = "<group>";
-		};
 		00E0BB171A3861AC003910CE /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -173,6 +143,35 @@
 				00E0BB191A3861CD003910CE /* MYCustomNavigationController.m */,
 			);
 			name = Classes;
+			sourceTree = "<group>";
+		};
+		00E0BB1E1A38647D003910CE /* AKUtils */ = {
+			isa = PBXGroup;
+			children = (
+				00E0BB1F1A386487003910CE /* AKBase */,
+				00E0BB241A386487003910CE /* AKNavTab */,
+			);
+			name = AKUtils;
+			sourceTree = "<group>";
+		};
+		00E0BB1F1A386487003910CE /* AKBase */ = {
+			isa = PBXGroup;
+			children = (
+				00E0BB201A386487003910CE /* UIView+AKUtils.h */,
+				00E0BB211A386487003910CE /* UIView+AKUtils.m */,
+				00E0BB221A386487003910CE /* UIViewController+AKUtils.h */,
+				00E0BB231A386487003910CE /* UIViewController+AKUtils.m */,
+			);
+			path = AKBase;
+			sourceTree = "<group>";
+		};
+		00E0BB241A386487003910CE /* AKNavTab */ = {
+			isa = PBXGroup;
+			children = (
+				00E0BB251A386487003910CE /* AKNavTabController.h */,
+				00E0BB261A386487003910CE /* AKNavTabController.m */,
+			);
+			path = AKNavTab;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,11 +275,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E0BB141A386149003910CE /* UIView+AKUtils.m in Sources */,
+				00E0BB281A386487003910CE /* UIViewController+AKUtils.m in Sources */,
 				00E0BB1A1A3861CD003910CE /* MYCustomNavigationController.m in Sources */,
-				00E0BB161A386149003910CE /* AKNavTabController.m in Sources */,
-				00E0BB151A386149003910CE /* UIViewController+AKUtils.m in Sources */,
 				00A0434C1A12AA2D00F6AA97 /* ViewController.m in Sources */,
+				00E0BB271A386487003910CE /* UIView+AKUtils.m in Sources */,
+				00E0BB291A386487003910CE /* AKNavTabController.m in Sources */,
 				00A043491A12AA2D00F6AA97 /* AppDelegate.m in Sources */,
 				00A043461A12AA2D00F6AA97 /* main.m in Sources */,
 			);
